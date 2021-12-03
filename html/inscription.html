@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/inscription.css"/>
+	</head>
+<body>
+	<div class="topnav">
+		<a href="../index.html">Accueil</a>
+		<a href="#news"> Sauveteurs </a>
+		<a href="#contact"> Stations </a>
+		<a href="#about"> Services </a>
+		<a href="#about"> Moyens Maritimes </a>
+		<a href="#about"> Techniques </a>
+		<a href="#about"> Historique </a>
+		<a href="#about"> Compléments </a>
+		<a href="#about"> Estaminet </a>
+		<a class="active" href="compte.html"> Compte</a>
+	  </div>
+
+
+      <form action="../php/connect.php" method="post">
+        <div class="container">
+          <h1> Création d'un compte </h1>
+          <hr>
+
+          <label for="fname"><b>Prénom</b></label>
+          <input type="text" placeholder="Prénom" name="fname" id="fname" required>
+
+          <label for="lnamel"><b>Nom</b></label>
+          <input type="text" placeholder="Nom" name="lname" id="lname" required>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>By creating an account you agree to our <a href="">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="connexion.html"> Sign In </a>.</p>
+        </div>
+      </form>
+
+
+</body>
+</html>

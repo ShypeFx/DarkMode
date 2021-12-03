@@ -1,0 +1,200 @@
+
+/* 1920x1080 */
+body{
+  background-color: black;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(212, 107, 8);
+  color: rgb(184, 184, 184);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #707070;
+  color: rgb(255, 255, 255);
+}
+
+
+.sauveteur{
+  font-size: 60px;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logosnsm{
+  width: 180px;
+  height: auto;
+  margin-left: 85%;
+  margin-top: 10px;
+}
+
+.rectangle{
+  width: 1400px;
+  height: 500px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 35px;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textwelcome{
+  color: rgb(255, 255, 255);
+  padding: 50px 15px 15px;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Headactualite{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* --------- ACTUALITE ------------ */
+
+.actualite{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px 0px;
+  margin-top: 10%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ****** First Rectangle ********* */
+.firstrectangle{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+.firstrectangle p{
+  margin-top: 5%;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.firstimage{
+  width: 90%;
+  height: auto;
+  padding: 20px 15px 15px ;
+  border-radius: 30px;
+}
+
+.firstbutton{
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 20%;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* ****** Second Rectangle ********* */
+
+.secondrectangle{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+.secondrectangle p{
+  margin-top: 15%;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.secondimage{
+  width: 90%;
+  height: auto;
+  padding: 20px 15px 15px ;
+  border-radius: 30px;
+}
+
+.secondbutton{
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 20%;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ****** Third Rectangle ********* */
+
+.thirdrectangle{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+.thirdrectangle p{
+  margin-top: 15%;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.thirdimage{
+  width: 90%;
+  height: auto;
+  padding: 20px 15px 15px ;
+  border-radius: 30px;
+}
+
+.thirdbutton{
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 10%;
+  margin-left: 20%;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.fourthrectangle{
+  width: 300px;
+  height: 800px;
+}
+
+
+
+
+
+
+
+
+
